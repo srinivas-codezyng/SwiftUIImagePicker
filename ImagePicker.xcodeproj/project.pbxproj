@@ -8,13 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		ACF5117F24B9B62C00CD4D54 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5117E24B9B62C00CD4D54 /* Tests_iOS.swift */; };
-		ACF5118A24B9B62C00CD4D54 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5118924B9B62C00CD4D54 /* Tests_macOS.swift */; };
-		ACF5118C24B9B62C00CD4D54 /* pencildemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5116324B9B62B00CD4D54 /* pencildemoApp.swift */; };
-		ACF5118D24B9B62C00CD4D54 /* pencildemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5116324B9B62B00CD4D54 /* pencildemoApp.swift */; };
+		ACF5118C24B9B62C00CD4D54 /* ImagePickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5116324B9B62B00CD4D54 /* ImagePickerApp.swift */; };
 		ACF5118E24B9B62C00CD4D54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5116424B9B62B00CD4D54 /* ContentView.swift */; };
-		ACF5118F24B9B62C00CD4D54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5116424B9B62B00CD4D54 /* ContentView.swift */; };
 		ACF5119024B9B62C00CD4D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5116524B9B62C00CD4D54 /* Assets.xcassets */; };
-		ACF5119124B9B62C00CD4D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5116524B9B62C00CD4D54 /* Assets.xcassets */; };
+		ACF511A124B9C4D500CD4D54 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF511A024B9C4D500CD4D54 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,41 +22,26 @@
 			remoteGlobalIDString = ACF5116924B9B62C00CD4D54;
 			remoteInfo = iOS;
 		};
-		ACF5118624B9B62C00CD4D54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ACF5115E24B9B62B00CD4D54 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ACF5117124B9B62C00CD4D54;
-			remoteInfo = macOS;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ACF5116324B9B62B00CD4D54 /* pencildemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pencildemoApp.swift; sourceTree = "<group>"; };
+		ACF5116324B9B62B00CD4D54 /* ImagePickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerApp.swift; sourceTree = "<group>"; };
 		ACF5116424B9B62B00CD4D54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACF5116524B9B62C00CD4D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ACF5116A24B9B62C00CD4D54 /* pencildemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pencildemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF5116A24B9B62C00CD4D54 /* ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF5116D24B9B62C00CD4D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACF5117224B9B62C00CD4D54 /* pencildemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pencildemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF5117424B9B62C00CD4D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACF5117524B9B62C00CD4D54 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		ACF5117A24B9B62C00CD4D54 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF5117E24B9B62C00CD4D54 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		ACF5118024B9B62C00CD4D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACF5118524B9B62C00CD4D54 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF5118924B9B62C00CD4D54 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		ACF5118B24B9B62C00CD4D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF511A024B9C4D500CD4D54 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ACF5116724B9B62C00CD4D54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACF5116F24B9B62C00CD4D54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,19 +55,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACF5118224B9B62C00CD4D54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		ACF5115D24B9B62B00CD4D54 = {
 			isa = PBXGroup;
 			children = (
+				ACF511A024B9C4D500CD4D54 /* ImagePicker.swift */,
 				ACF5116224B9B62B00CD4D54 /* Shared */,
 				ACF5116C24B9B62C00CD4D54 /* iOS */,
 				ACF5117324B9B62C00CD4D54 /* macOS */,
@@ -98,7 +74,7 @@
 		ACF5116224B9B62B00CD4D54 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				ACF5116324B9B62B00CD4D54 /* pencildemoApp.swift */,
+				ACF5116324B9B62B00CD4D54 /* ImagePickerApp.swift */,
 				ACF5116424B9B62B00CD4D54 /* ContentView.swift */,
 				ACF5116524B9B62C00CD4D54 /* Assets.xcassets */,
 			);
@@ -108,10 +84,8 @@
 		ACF5116B24B9B62C00CD4D54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACF5116A24B9B62C00CD4D54 /* pencildemo.app */,
-				ACF5117224B9B62C00CD4D54 /* pencildemo.app */,
+				ACF5116A24B9B62C00CD4D54 /* ImagePicker.app */,
 				ACF5117A24B9B62C00CD4D54 /* Tests iOS.xctest */,
-				ACF5118524B9B62C00CD4D54 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,24 +142,7 @@
 			);
 			name = iOS;
 			productName = iOS;
-			productReference = ACF5116A24B9B62C00CD4D54 /* pencildemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		ACF5117124B9B62C00CD4D54 /* macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACF5119724B9B62C00CD4D54 /* Build configuration list for PBXNativeTarget "macOS" */;
-			buildPhases = (
-				ACF5116E24B9B62C00CD4D54 /* Sources */,
-				ACF5116F24B9B62C00CD4D54 /* Frameworks */,
-				ACF5117024B9B62C00CD4D54 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = macOS;
-			productName = macOS;
-			productReference = ACF5117224B9B62C00CD4D54 /* pencildemo.app */;
+			productReference = ACF5116A24B9B62C00CD4D54 /* ImagePicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 		ACF5117924B9B62C00CD4D54 /* Tests iOS */ = {
@@ -206,24 +163,6 @@
 			productReference = ACF5117A24B9B62C00CD4D54 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		ACF5118424B9B62C00CD4D54 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACF5119D24B9B62C00CD4D54 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				ACF5118124B9B62C00CD4D54 /* Sources */,
-				ACF5118224B9B62C00CD4D54 /* Frameworks */,
-				ACF5118324B9B62C00CD4D54 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ACF5118724B9B62C00CD4D54 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = ACF5118524B9B62C00CD4D54 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -236,20 +175,13 @@
 					ACF5116924B9B62C00CD4D54 = {
 						CreatedOnToolsVersion = 12.0;
 					};
-					ACF5117124B9B62C00CD4D54 = {
-						CreatedOnToolsVersion = 12.0;
-					};
 					ACF5117924B9B62C00CD4D54 = {
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = ACF5116924B9B62C00CD4D54;
 					};
-					ACF5118424B9B62C00CD4D54 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = ACF5117124B9B62C00CD4D54;
-					};
 				};
 			};
-			buildConfigurationList = ACF5116124B9B62B00CD4D54 /* Build configuration list for PBXProject "pencildemo" */;
+			buildConfigurationList = ACF5116124B9B62B00CD4D54 /* Build configuration list for PBXProject "ImagePicker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -263,9 +195,7 @@
 			projectRoot = "";
 			targets = (
 				ACF5116924B9B62C00CD4D54 /* iOS */,
-				ACF5117124B9B62C00CD4D54 /* macOS */,
 				ACF5117924B9B62C00CD4D54 /* Tests iOS */,
-				ACF5118424B9B62C00CD4D54 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -279,22 +209,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACF5117024B9B62C00CD4D54 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACF5119124B9B62C00CD4D54 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ACF5117824B9B62C00CD4D54 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACF5118324B9B62C00CD4D54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,17 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF511A124B9C4D500CD4D54 /* ImagePicker.swift in Sources */,
 				ACF5118E24B9B62C00CD4D54 /* ContentView.swift in Sources */,
-				ACF5118C24B9B62C00CD4D54 /* pencildemoApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACF5116E24B9B62C00CD4D54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACF5118F24B9B62C00CD4D54 /* ContentView.swift in Sources */,
-				ACF5118D24B9B62C00CD4D54 /* pencildemoApp.swift in Sources */,
+				ACF5118C24B9B62C00CD4D54 /* ImagePickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,14 +237,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACF5118124B9B62C00CD4D54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACF5118A24B9B62C00CD4D54 /* Tests_macOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -345,11 +244,6 @@
 			isa = PBXTargetDependency;
 			target = ACF5116924B9B62C00CD4D54 /* iOS */;
 			targetProxy = ACF5117B24B9B62C00CD4D54 /* PBXContainerItemProxy */;
-		};
-		ACF5118724B9B62C00CD4D54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ACF5117124B9B62C00CD4D54 /* macOS */;
-			targetProxy = ACF5118624B9B62C00CD4D54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -479,8 +373,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = codezyng.pencildemo;
-				PRODUCT_NAME = pencildemo;
+				PRODUCT_BUNDLE_IDENTIFIER = codezyng.imagepickerdemo;
+				PRODUCT_NAME = ImagePicker;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,60 +395,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = codezyng.pencildemo;
-				PRODUCT_NAME = pencildemo;
+				PRODUCT_BUNDLE_IDENTIFIER = codezyng.imagepickerdemo;
+				PRODUCT_NAME = ImagePicker;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		ACF5119824B9B62C00CD4D54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UKFTV9BZ7N;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = codezyng.pencildemo;
-				PRODUCT_NAME = pencildemo;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		ACF5119924B9B62C00CD4D54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UKFTV9BZ7N;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = codezyng.pencildemo;
-				PRODUCT_NAME = pencildemo;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -603,54 +449,10 @@
 			};
 			name = Release;
 		};
-		ACF5119E24B9B62C00CD4D54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UKFTV9BZ7N;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = "codezyng.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = macOS;
-			};
-			name = Debug;
-		};
-		ACF5119F24B9B62C00CD4D54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UKFTV9BZ7N;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = "codezyng.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = macOS;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACF5116124B9B62B00CD4D54 /* Build configuration list for PBXProject "pencildemo" */ = {
+		ACF5116124B9B62B00CD4D54 /* Build configuration list for PBXProject "ImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACF5119224B9B62C00CD4D54 /* Debug */,
@@ -668,29 +470,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACF5119724B9B62C00CD4D54 /* Build configuration list for PBXNativeTarget "macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACF5119824B9B62C00CD4D54 /* Debug */,
-				ACF5119924B9B62C00CD4D54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		ACF5119A24B9B62C00CD4D54 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACF5119B24B9B62C00CD4D54 /* Debug */,
 				ACF5119C24B9B62C00CD4D54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACF5119D24B9B62C00CD4D54 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACF5119E24B9B62C00CD4D54 /* Debug */,
-				ACF5119F24B9B62C00CD4D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
